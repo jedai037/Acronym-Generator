@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acronym Generator</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normolize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:300,500,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div  class="sup-title">Generate your ideas</div>
+            <div class="title">
+                <img class="title-logo" src="images/logo.png" alt="">
+                ACRONYM <b>GENERATOR</b>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <p class="sub-title">
+                Looking for the perfect name for your product, company, or project? This free service will generate hundreds of different acronyms for you to use in just seconds. All you have to do is put in your chosen words, and Acronym Generator will provide you with a huge range of acronyms to choose from.
+            </p>
+        </div>
+    </section>
+    <div class="container">
+        <div class="buttons">
+            <form action=#><input class="buttons-input" value="Enter your phrase" onfocus="this.value=''">
+            <button class="buttons-button">Generate</button></form>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+            <div class="main">
+                <div class="main-header">
+                    <div class="main-header-dots-white"></div>
+                    <div class="main-header-dots-middle"></div>
+                    <div class="main-header-dots-light"></div>
+                </div>
+                <div class="main-block">
+                    <div class="wrapper">
+                        <img class="main-block-png" src="images/text.png" alt="">
+                        <img class="main-block-png" src="images/text.png" alt="">
+                    </div>
+                    <div class="wrapper wrapper__disable">
+                        <ul class="main-block__active">
+                            <li class="main-block__active-header">Acronym</li>
+                            <li>DGA</li>
+                            <li>DGAT</li>
+                            <li>DOG</li>
+                            <li>DOGA</li>
+                            <li>DOGAT</li>
+                            <li>DOGT</li>
+                            <li>DMGA</li>
+                            <li>DMGAT</li>
+                            <li>DOA</li>
+                            <li>DMA</li>
+
+                            <li class="main-block__active-header">Acronym</li>
+                            <li>Doom GAte</li>
+                            <li>Doom GATe</li>
+                            <li>DOom Gate</li>
+                            <li>DOom GAte</li>
+                            <li>DOom GATe</li>
+                            <li>DOom GaTe</li>
+                            <li>DooM GAte</li>
+                            <li>DooM GATe</li>
+                            <li>DOom gAte</li>
+                            <li>DooM gAte</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        © 2019 Media4x
+    </footer>
+    <script>
+        const btn = document.querySelector('.buttons-button');
+        const wrapper = document.querySelectorAll('.wrapper');
+    
+        btn.addEventListener('click', (evt) => {
+          evt.preventDefault();
+          wrapper.forEach(element => {
+            element.classList.toggle('wrapper__disable');
+          });
+        });
+    
+    
+      </script>
+</body>
+</html>
