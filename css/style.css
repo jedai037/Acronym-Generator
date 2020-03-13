@@ -55,23 +55,23 @@ header {
   font-size: 11.0046px;
   line-height: 22px;
   color: #98A3B9;
-  max-width: 457.3px;
+  max-width: 320px;
 }
 
 .buttons {
   margin-top: 25px;
-  max-width: 396.87px;
+  max-width: 320px;
   white-space: nowrap;
 }
 
 .buttons-input {
-  width: 60%;
+  width: 55%;
   font-weight: 300;
   font-size: 8.55914px;
   line-height: 13px;
   color: #98A3B9;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #E3E6ED;
   border-radius: 5px;
 }
 
@@ -79,7 +79,7 @@ header {
   margin-left: 13px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  width: 40%;
+  width: 35%;
   cursor: pointer;
   background: linear-gradient(168.1deg, #8492FF 5.53%, #5468FF 94.81%);
   font-weight: 500;
@@ -120,13 +120,13 @@ header {
   height: 6.73px;
 }
 
-.main-header-dots-white {
+.main-header-dots-dark {
   display: inline-block;
   margin-left: 10px;
   width: 6.73px;
   height: 6.73px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: #98A3B9;
 }
 
 .main-header-dots-middle {
@@ -163,7 +163,7 @@ header {
 }
 
 .main-block__active {
-  margin-left: 10%;
+  padding-left: 10%;
   margin-top: 10%;
   padding-bottom: 5%;
   min-width: 320px;
@@ -192,6 +192,9 @@ header {
 }
 
 @media (min-width: 1220px) {
+  .buttons {
+    max-width: 400px;
+  }
   .main {
     max-width: 734px;
     width: 100%;
