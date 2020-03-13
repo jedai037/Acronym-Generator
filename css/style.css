@@ -192,6 +192,9 @@ header {
 }
 
 @media (min-width: 1220px) {
+  .sub-title {
+    max-width: 457.3px;
+  }
   .buttons {
     max-width: 400px;
   }
