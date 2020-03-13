@@ -61,10 +61,11 @@ header {
 .buttons {
   margin-top: 25px;
   max-width: 396.87px;
+  white-space: nowrap;
 }
 
 .buttons-input {
-  width: 224.64px;
+  width: 60%;
   font-weight: 300;
   font-size: 8.55914px;
   line-height: 13px;
@@ -78,8 +79,8 @@ header {
   margin-left: 13px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  max-width: 140px;
-  width: 100%;
+  width: 40%;
+  cursor: pointer;
   background: linear-gradient(168.1deg, #8492FF 5.53%, #5468FF 94.81%);
   font-weight: 500;
   font-size: 8.55914px;
@@ -165,7 +166,7 @@ header {
   margin-left: 10%;
   margin-top: 10%;
   padding-bottom: 5%;
-  min-width: 400px;
+  min-width: 320px;
   text-align: left;
   column-count: 2;
   list-style-type: decimal;
